@@ -7,7 +7,7 @@ var menuResp = $('.hamburger-menu');
 var burgerBtn = $('.header-right > a');
 var crossMenu = $('.close');
 
-//Utilizzo show e hide
+//Uso show e hide
  //Mostro il menu al click sul burger
  /*
  burgerBtn.click(
@@ -24,8 +24,8 @@ var crossMenu = $('.close');
  );
 */
 
-//Utilizzo fadeIn e fadeOut
-
+//Uso fadeIn e fadeOut
+/*
 burgerBtn.click(
   function () {
   menuResp.fadeIn('slow');
@@ -36,5 +36,23 @@ burgerBtn.click(
 crossMenu.click(
   function () {
     menuResp.fadeOut('slow');
+  }
+);
+*/
+
+
+//Uso toggle
+//Mostro il menu al click sul burger
+
+burgerBtn.click(
+  function () {
+  menuResp.toggle('slow');
+  }
+);
+
+//Lo nascondo al click sulla x
+crossMenu.click(
+  function () {
+    menuResp.toggle('slow');
   }
 );
