@@ -2,6 +2,7 @@
 Hamburger menu:
 mostrare / nascondere il menu principale
 */
+
 //Variabili utili
 var menuResp = $('.hamburger-menu');
 var burgerBtn = $('.header-right > a');
@@ -24,8 +25,9 @@ var crossMenu = $('.close');
  );
 */
 
+
 //Uso fadeIn e fadeOut
-/*
+
 burgerBtn.click(
   function () {
   menuResp.fadeIn('slow');
@@ -35,24 +37,27 @@ burgerBtn.click(
 //Lo nascondo al click sulla x
 crossMenu.click(
   function () {
-    menuResp.fadeOut('slow');
+     menuResp.fadeOut('slow');
   }
-);
-*/
+ );
 
 
-//Uso toggle
+
+//TOGGLE
 //Mostro il menu al click sul burger
-
+/*
 burgerBtn.click(
   function () {
-  menuResp.toggle('slow');
+    menuResp.toggle('slow');
   }
 );
-
 //Lo nascondo al click sulla x
 crossMenu.click(
   function () {
     menuResp.toggle('slow');
   }
 );
+*/
+
+
+//Lo nascondo al click sulla x
