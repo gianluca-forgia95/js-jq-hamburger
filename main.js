@@ -10,7 +10,6 @@ var menuResp = $('.hamburger-menu');
 var burgerBtn = $('.header-right > a');
 var crossMenu = $('.close');
 
-
 //Uso show e hide
  //Mostro il menu al click sul burger
  /*
@@ -37,7 +36,6 @@ burgerBtn.click(
 );
 
 //Lo nascondo al click sulla x
-
 crossMenu.click(
   function () {
      menuResp.fadeOut('slow');
@@ -63,7 +61,7 @@ crossMenu.click(
 */
 
 
-//Lo nascondo al click sulla x
+
 
 //Metodo aggiungendo e togliendo la class active
 /*
